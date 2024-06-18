@@ -1,0 +1,17 @@
+.LinkPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-color: lightblue;*/
+    width: fit-content;
+    /* top right bottom left, 상하 좌우 */
+    margin: 0px 100px;
+}
+#Image {
+    /* 두께, 유형, 색깔 */
+    border: 2px solid black;
+    width: 50px;
+    height: auto;
+    /* overflow: hidden; */
+}
