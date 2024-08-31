@@ -1,4 +1,4 @@
-#!/Users/davidkim/Desktop/Bookmark-Service/back_flask/venv/bin/python3.12
+#!/Users/davidkim/Desktop/Bookmark-Service/bookmark/back_flask/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys

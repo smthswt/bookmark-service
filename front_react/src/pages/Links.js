@@ -20,28 +20,6 @@ const LinksPage = () => {
     const displayName = siteName.length > 6 ? siteName.substring(0, 6) + '..' : siteName;
     console.log("hanlde links bookmark")
 
-    // const newLink = (
-    //     <Button style={{ padding: 10, width: "90px" }}>
-    //         <a href={siteUrl} target="_blank" rel="noopener noreferrer" style={{
-    //             textDecoration: 'none', color: 'inherit', display: 'flex',
-    //             flexDirection: 'column', alignItems: 'center'
-    //         }}>
-    //             <Box style={{ display: "flex", flexDirection: "column", alignItems: 'center' }}>
-    //                 <Box style={{
-    //                     display: 'flex', border: "1px solid grey", height: "55px", width: "55px",
-    //                     alignItems: 'center', justifyContent: "center", marginBottom: 10, borderRadius: "30px"
-    //                 }}>
-    //                     <Typography variant="h6" component="span" color={"black"}>
-    //                         {siteName.charAt(0).toUpperCase()}
-    //                     </Typography>
-    //                 </Box>
-    //                 <Typography variant="body1" align="center" color={"black"}>
-    //                     {displayName}
-    //                 </Typography>
-    //             </Box>
-    //         </a>
-    //     </Button>
-    // );
 
         const newLink = {
             site_name: siteName,

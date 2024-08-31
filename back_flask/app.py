@@ -197,9 +197,7 @@ if __name__ == '__main__':
 # 가상환경 활성화
 # source venv/bin/activate
 # 설치
-# pip install flask
-# pip install flask_cors
-# pip install PyJWT
+# pip install flask flask_cors PyJWT flasgger
 # 5000 포트 실행
 # flask run
 
